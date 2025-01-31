@@ -14,3 +14,8 @@
 * MongoDB (NoSQL), PostgreSQL (SQL)
 * AWS Lambda, Google Cloud Functions 
 
+
+might need to add 
+
+export PYTHONPATH=$PYTHONPATH:/path/to/ai-vuln-scanner
+python vulnerability_scanner/scanner.py
