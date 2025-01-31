@@ -1,0 +1,10 @@
+{
+  "ai_model": {
+    "algorithm": "RandomForest"
+  },
+  "scanner": {
+    "scan_interval": 3600,
+    "report_format": "html",
+    "target_systems": ["example_system", "other_system"]
+  }
+}
