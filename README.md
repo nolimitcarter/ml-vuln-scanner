@@ -1,21 +1,69 @@
-# Project Scope and Goals
+# Project Scope
 
-* Scan websites for common vulnerabilities (SQLi, XSS, CSRF, SSRF, RCE, and more). 
-* Use machine learning to detect anomolies.
-* Automate scans and generate security reports. 
-* Deploy as a web app (Flask/FastAPI) or cloud based service (AWS, Azure). 
+### Target Systems and Envrioments: 
 
-## Tech Stack
+* The scanner is designed to scan IP addresses, detect open ports, and identify potential vulnerabilities associated with those ports and services. 
+* The range of IPs and types of devices that are scanned should be considered. 
 
-* Python
-* TensorFlow, Scikit-learn, PyTorch
-* BeautifulSoup, Selenium
-* OWASP ZAP, SQLmap, Wapiti
-* MongoDB (NoSQL), PostgreSQL (SQL)
-* AWS Lambda, Google Cloud Functions 
+### Technology Stack
 
+* Python 
+* Bash
+* The scanner uses Nmap for network scanning and identifying open ports/services. 
+* Integration with other tools and databases, such as CVE repositories 
+* CLI tool for now
 
-might need to add 
+### Vulnerability Types
 
-export PYTHONPATH=$PYTHONPATH:/path/to/ai-vuln-scanner
-python vulnerability_scanner/scanner.py
+* The scanner primarily checks for vulnerabilities based on known CVEs tied to services detected by Nmap. 
+* In the future it could identify misconfigurations, weak credentials, and outdated software versions based on known signatures. 
+
+### Output and Reporting 
+
+TBD
+
+# Project Goals
+
+1. Network and Vulnerability Discovery:
+
+* Scan IP addresses within a given range or subnet.
+* Detect open ports and identify services running on those ports.
+* Identify known vulnerabilities associated with those services based on the service version and configuration (e.g., CVE vulnerabilities).
+* Incorporate Nmap scripting to detect specific vulnerabilities.
+
+2. Ease of Use:
+
+* The scanner should be user-friendly for system administrators, security teams, or developers with minimal setup.
+* Provide clear outputs and a simple interface for interacting with the tool.
+* CLI-based but with the potential for expanding into a web interface for non-technical users.
+
+3. Automation and Scheduling:
+
+* Provide the ability to automate scans (e.g., scheduled scans at regular intervals).
+* Integrate with existing automation tools or CI/CD pipelines for continuous vulnerability monitoring.
+
+4. Reporting:
+
+* Generate actionable vulnerability reports that can be easily interpreted by IT staff or security teams.
+* Include a summary of findings with a severity score to prioritize patching or mitigation efforts.
+* Generate recommendations for addressing vulnerabilities (e.g., patching, updating configurations, blocking ports).
+
+5. Customization:
+
+* Allow the user to configure the scanner with custom Nmap options (e.g., scanning only specific ports, using particular Nmap scripts, etc.).
+* Include options to add authentication for scanning services that require credentials.
+
+6. Scalability:
+
+* Support scanning of large networks and multiple IPs in parallel.
+* Ensure the scanner performs well even on subnets with hundreds of hosts.
+
+7. Integration:
+
+* Provide APIs or integrations with other vulnerability management or security tools (e.g., vulnerability databases, SIEM systems).
+* Allow integration with threat intelligence feeds to keep the vulnerability checks up to date.
+
+8. Continuous Improvement:
+
+* Implement logging, error handling, and diagnostic tools for easier debugging and development.
+* Enable the scanner to be updated as new vulnerabilities and CVEs are identified, including regularly updating its scanning capabilities (e.g., new Nmap scripts or CVE detection).
