@@ -1,0 +1,25 @@
+IP Address,Status,SSH (22),HTTP (80),HTTPS (443)
+192.168.1.1,up,closed,open,open
+192.168.1.10,up,closed,closed,closed
+192.168.1.103,up,closed,closed,closed
+192.168.1.11,up,closed,closed,closed
+192.168.1.115,up,closed,closed,closed
+192.168.1.12,up,closed,open,open
+192.168.1.13,up,closed,open,open
+192.168.1.15,up,closed,closed,closed
+192.168.1.16,up,closed,open,closed
+192.168.1.17,up,closed,closed,closed
+192.168.1.18,up,closed,closed,closed
+192.168.1.19,up,closed,closed,closed
+192.168.1.20,up,closed,closed,closed
+192.168.1.22,up,closed,closed,closed
+192.168.1.23,up,closed,open,open
+192.168.1.24,up,closed,closed,closed
+192.168.1.26,up,closed,closed,closed
+192.168.1.28,up,closed,open,closed
+192.168.1.29,up,closed,closed,closed
+192.168.1.3,up,closed,closed,closed
+192.168.1.31,up,closed,closed,closed
+192.168.1.33,up,closed,open,closed
+192.168.1.35,up,closed,closed,closed
+192.168.1.9,up,open,closed,closed

@@ -67,3 +67,6 @@ TBD
 
 * Implement logging, error handling, and diagnostic tools for easier debugging and development.
 * Enable the scanner to be updated as new vulnerabilities and CVEs are identified, including regularly updating its scanning capabilities (e.g., new Nmap scripts or CVE detection).
+
+export PYTHONPATH=$PYTHONPATH:/path/to/ai-vuln-scanner
+python vulnerability_scanner/scanner.py
