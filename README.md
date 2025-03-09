@@ -73,4 +73,4 @@ Displays console output along with using .CSV files and JSON for output
 export PYTHONPATH=$PYTHONPATH:/path/to/ai-vuln-scanner
 python vulnerability_scanner/scanner.py
 
-<p align="center"><img src="https://github.com/nolimitcarter/ml-vuln-scanner/blob/main/assets/Screenshot-2025-03-09-174447.png" width="350px"></p>
+<p align="center"><img src="https://github.com/nolimitcarter/ml-vuln-scanner/blob/main/assets/Screenshot-2025-03-09-174447.png" width="800px" length="700px"></p>
