@@ -20,7 +20,7 @@
 
 ### Output and Reporting 
 
-TBD
+Displays console output along with using .CSV files and JSON for output 
 
 # Project Goals
 
@@ -68,5 +68,9 @@ TBD
 * Implement logging, error handling, and diagnostic tools for easier debugging and development.
 * Enable the scanner to be updated as new vulnerabilities and CVEs are identified, including regularly updating its scanning capabilities (e.g., new Nmap scripts or CVE detection).
 
+# ETC. 
+
 export PYTHONPATH=$PYTHONPATH:/path/to/ai-vuln-scanner
 python vulnerability_scanner/scanner.py
+
+<p align="center"><img src="https://github.com/nolimitcarter/ml-vuln-scanner/blob/main/assets/Screenshot-2025-03-09-174447.png" width="350px"></p>
