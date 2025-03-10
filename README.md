@@ -17,6 +17,7 @@
 
 * The scanner primarily checks for vulnerabilities based on known CVEs tied to services detected by Nmap. 
 * In the future it could identify misconfigurations, weak credentials, and outdated software versions based on known signatures. 
+* Vulnerability database stored in AWS s3 bucket
 
 ### Output and Reporting 
 
