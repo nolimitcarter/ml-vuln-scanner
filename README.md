@@ -72,4 +72,4 @@ Displays console output along with using .CSV files and JSON for output
 
 # Example output 
 
-<p align="center"><img src="https://github.com/nolimitcarter/ml-vuln-scanner/blob/main/assets/Screenshot-2025-03-09-174447.png" width="800px" length="700px"></p>
+<p align="center"><img src="https://github.com/nolimitcarter/ml-vuln-scanner/blob/main/assets/Screenshot-2025-03-11-001039.png" width="800px" length="700px"></p>
